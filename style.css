@@ -1,0 +1,41 @@
+body {
+  background-image: url(clouds.jpg);
+}
+
+.headline {
+  color: #5b2a38;
+  font-family: 'Marcellus', serif;
+  font-size: 72px;
+  text-align:center;
+  text-shadow: 1px 2px 5px white;
+}
+
+.paragraph1 {
+  font-family: 'Arapey', serif;
+  font-size: 22px;
+  max-width: fit-content;
+  margin:auto;
+  width: 1000px;
+}
+
+.paragraph2 {
+    font-family: 'Arapey', serif;
+    font-size: 22px;
+    max-width: fit-content;
+    margin:auto;
+    width: 1000px;
+    padding-top: 25px;
+}
+
+  .link {
+    color: rgb(131, 41, 41);
+    text-decoration: none;
+}
+
+/*Mobile view*/
+  @media only screen and (max-width: 600px){
+    .headline {
+      font-size: 36px;
+    }
+
+}
